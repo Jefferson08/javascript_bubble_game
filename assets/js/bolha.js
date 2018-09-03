@@ -42,7 +42,7 @@ function estourar(elemento){
 }
 
 function iniciar(){
-	timer = setInterval(addBola, 500); //Define o intervalo emque as bolhas aparecerão
+	timer = setInterval(addBola, 500); //Define o intervalo em que as bolhas aparecerão
 }
 
 function gera_cor(){ //Retorna uma cor aleatória em hexadecimal
