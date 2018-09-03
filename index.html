@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Jogo Bolhas</title>
+	<script type="text/javascript" src="bolha.js"></script>
+	<style type="text/css">
+		.bola{
+			width: 50px;
+			height: 50px;
+			
+			border-radius: 25px;
+			position: absolute;
+		}
+
+		#minha_div{
+			width: 600px;
+			height: 400px;
+			background-color: white;
+			margin: auto;
+			border: 1px solid;
+		}
+	</style>
+</head>
+<body onload="iniciar()">
+
+
+	<h2 style="text-align: center;">Clique para estourar as bolhas!!!</h2>	
+
+	<div id="minha_div"></div>
+
+	<div style="text-align: center;">
+		<h2 id="total_bolhas">Total de bolhas: 0</h2>
+		<h2 id="estouradas">Bolhas estouradas: 0</h2>
+	</div>
+
+</body>
+</html>
